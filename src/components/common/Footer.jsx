@@ -12,13 +12,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">C</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">CoffexTrading</h3>
-                <p className="text-gray-400 text-sm">Global Solutions</p>
-              </div>
+              <img 
+                src="/images/logo.jpg"
+                alt="CoffexTrading Logo" 
+                className="h-15 w-auto object-contain"
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Your trusted partner for global import and export solutions. 

@@ -13,7 +13,7 @@ const CompanyStory = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Founded in 2019, CoffexTrading emerged from a vision to simplify
+                Founded in 2012, CoffexTrading emerged from a vision to simplify
                 international trade and educational opportunities. What started
                 as a small consultancy has grown into a trusted global partner,
                 helping businesses expand internationally and students achieve
@@ -107,7 +107,7 @@ const CompanyStory = () => {
                 {/* CEO Name */}
                 <div className="space-y-2">
                   <h3 className="text-3xl font-bold text-gray-900 tracking-wide">
-                    TRYMORE SAKUBENDE
+                    SAKUBENDE TRYMORE
                   </h3>
                   <p className="text-xl text-blue-600 font-semibold">
                     CoffexTrading CEO
@@ -116,7 +116,7 @@ const CompanyStory = () => {
 
                 {/* CEO Description */}
                 <p className="text-gray-700 max-w-md mx-auto leading-relaxed text-lg">
-                  With over 5 years of experience in international trade and
+                  With over 10+ years of experience in international trade and
                   education consulting, Trymore leads CoffexTrading with a
                   vision to create seamless global opportunities for businesses
                   and students in China.

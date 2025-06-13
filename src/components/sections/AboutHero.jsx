@@ -23,7 +23,7 @@ const AboutHero = () => {
             <p className="text-xl lg:text-2xl text-gray-100 leading-relaxed max-w-4xl mx-auto">
               Bridging continents through trade and education. We are your trusted partner 
               in international business and academic pursuits, connecting opportunities 
-              across borders since 2019.
+              across borders since 2012.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const AboutHero = () => {
               <div className="flex items-center justify-center w-16 h-16 bg-yellow-500 rounded-xl mx-auto mb-4">
                 <Award className="w-8 h-8 text-black" />
               </div>
-              <div className="text-3xl font-bold text-white mb-2">5+</div>
+              <div className="text-3xl font-bold text-white mb-2">10+</div>
               <div className="text-gray-300">Years Experience</div>
             </div>
             <div className="text-center">

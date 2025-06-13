@@ -35,13 +35,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">C</span>
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">CoffexTrading</h1>
-                <p className="text-sm text-gray-600">Global Solutions</p>
-              </div>
+              <img 
+                src="/images/logo.jpg" 
+                alt="CoffexTrading Logo" 
+                className="h-15 w-auto object-contain"
+              />
             </Link>
           </div>
 

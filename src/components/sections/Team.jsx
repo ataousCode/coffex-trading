@@ -5,13 +5,25 @@ const Team = () => {
     {
       name: "TadalateStudio",
       type: "Advanced Consulting and IT Partner",
-      logo: "/images/partners/tadalate-studio.png",
+      logo: "/images/tadalate.png",
       website: "https://tadalatestudio.com"
+    },
+    {
+      name: "Morati Logistics",
+      type: "Transportation partner.",
+      logo: "/images/morati.jpg",
+      website: "https://morati.com"
+    },
+    {
+      name: "Toatal Edge",
+      type: "Client partner for sourcing.",
+      logo: "/images/edge.jpg",
+      website: "https://totaledge.com"
     },
     {
       name: "JOYSOL",
       type: "Investments Partner",
-      logo: "/images/partners/joysol.png",
+      logo: "/images/joy.jpg",
       website: "https://joysol.com"
     },
     {

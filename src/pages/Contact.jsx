@@ -41,19 +41,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+86 138 0013 8000", "+1 (555) 123-4567"],
+      details: ["+86 177 6539 9420", "+263 713 402 456"],
       description: "Call us for immediate assistance"
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@coffextrading.com", "support@coffextrading.com"],
+      details: ["info@coffextrading.com", "sakubendet@gmail.com"],
       description: "Send us your inquiries anytime"
     },
     {
       icon: MapPin,
       title: "Office",
-      details: ["Shanghai, China", "New York, USA"],
+      details: ["Guangzhou, China", "Harare, Zimbabwe"],
       description: "Visit our offices worldwide"
     },
     {
@@ -201,7 +201,7 @@ const Contact = () => {
                   <Card.Body>
                     <Card.Title className="flex items-center mb-3">
                       <MapPin className="w-5 h-5 mr-2 text-blue-600" />
-                      Shanghai Office
+                      Guangzhou Office
                     </Card.Title>
                     <Card.Description>
                       Room 1205, Building A<br />
@@ -216,13 +216,13 @@ const Contact = () => {
                   <Card.Body>
                     <Card.Title className="flex items-center mb-3">
                       <MapPin className="w-5 h-5 mr-2 text-blue-600" />
-                      New York Office
+                      Zimbabwe Office
                     </Card.Title>
                     <Card.Description>
-                      Suite 500, Empire State Building<br />
-                      350 5th Avenue<br />
-                      New York, NY 10118<br />
-                      <strong>Phone:</strong> +1 (555) 123-4567
+                      Cnr Nelson Mandela & 4th Street<br />
+                      Beverly Court 8th floor<br />
+                      Harare / Zimbabwe<br />
+                      <strong>Phone:</strong> +263 713 402 456
                     </Card.Description>
                   </Card.Body>
                 </Card>
