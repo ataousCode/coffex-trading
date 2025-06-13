@@ -1,12 +1,25 @@
-# React + Vite
+## CoffexTrading , a company that operates in two main business areas:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Primary Services
 
-Currently, two official plugins are available:
+### 1. Import/Export Trading Services
+- Product Sourcing : Finding suppliers and products from China with supplier verification, price negotiation, and quality assessment
+- Supplier Vetting : Comprehensive background checks and verification of business partners
+- Quality Inspection : Pre-shipment inspections and compliance verification to ensure international standards
+- International Shipping : Logistics solutions including customs clearance, door-to-door delivery, and real-time tracking
+### 2. Student Admission Services
+- University Selection : Expert guidance for choosing Chinese universities
+- Application Support : Complete assistance with university applications and documentation
+- Visa Assistance : Help with student visa processes
+- Academic Consulting : Ongoing support for international students
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Company Background
+Founded : 2012
+Mission : To bridge global opportunities by providing seamless trade solutions and educational pathways that empower businesses and individuals to thrive internationally.
+Vision : To become the world's most trusted platform for international trade and education, creating a borderless world of opportunities.
+CEO : Trymore Sakubende
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Target Audience
+1. Businesses looking to expand internationally, particularly those wanting to import/export with China
+2. Students seeking admission to Chinese universities
+3. Companies needing supplier verification and quality control services
