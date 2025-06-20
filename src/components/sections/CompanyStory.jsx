@@ -110,7 +110,7 @@ const CompanyStory = () => {
                     SAKUBENDE TRYMORE
                   </h3>
                   <p className="text-xl text-blue-600 font-semibold">
-                    CoffexTrading CEO
+                    Coffex Trading CEO
                   </p>
                 </div>
 

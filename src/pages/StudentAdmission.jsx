@@ -11,6 +11,7 @@ import {
 const StudentAdmission = () => {
   const [loading, setLoading] = useState(false);
   const [showForm, setShowForm] = useState(false);
+  const [downloadLoading, setDownloadLoading] = useState(false);
 
   const handleGetStarted = () => {
     setShowForm(true);
@@ -31,6 +32,33 @@ const StudentAdmission = () => {
         formSection.scrollIntoView({ behavior: 'smooth' });
       }
     }, 100);
+  };
+
+  const handleDownloadBrochure = async () => {
+    setDownloadLoading(true);
+    try {
+      const brochureUrl = '/brochures/student-services-brochure.pdf';
+      const fileName = 'Student_Services_Brochure.pdf';
+      
+      // Create a temporary link element to trigger download
+      const link = document.createElement('a');
+      link.href = brochureUrl;
+      link.download = fileName;
+      link.target = '_blank';
+      
+      // Append to body, click, and remove
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // Show success message
+      alert(`${fileName} download started successfully!`);
+    } catch (error) {
+      console.error('Error downloading brochure:', error);
+      alert('Sorry, there was an error downloading the brochure. Please try again later.');
+    } finally {
+      setDownloadLoading(false);
+    }
   };
 
   const services = [
@@ -117,8 +145,10 @@ const StudentAdmission = () => {
                 size="lg"
                 className="border-yellow-300 text-yellow-300 hover:bg-yellow-300 hover:text-black"
                 icon={<Download />}
+                onClick={handleDownloadBrochure}
+                disabled={downloadLoading}
               >
-                Download Brochure
+                {downloadLoading ? 'Downloading...' : 'Download Brochure'}
               </Button>
             </div>
           </div>
@@ -269,7 +299,7 @@ const StudentAdmission = () => {
               variant={showForm ? "default" : "outline"}
               icon={<Phone />}
             >
-              Call Now: +86 138 0013 8000
+              Call Now: +86 177 6539 9420
             </Button>
             <Button
               variant="outline"

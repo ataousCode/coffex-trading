@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 import { Globe, Phone, Mail } from 'lucide-react';
@@ -34,12 +35,20 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-3">
+            <Link to="/" className="flex items-center space-x-3 group">
               <img 
                 src="/images/logo.jpg" 
                 alt="CoffexTrading Logo" 
-                className="h-15 w-auto object-contain"
+                className="h-15 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold text-gray-900 tracking-tight group-hover:text-blue-600 transition-colors duration-300">
+                  Coffex Trading
+                </span>
+                <span className="text-sm text-gray-500 font-medium tracking-wide">
+                  Global Solutions
+                </span>
+              </div>
             </Link>
           </div>
 

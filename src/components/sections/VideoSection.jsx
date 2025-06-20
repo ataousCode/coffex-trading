@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Button from '../common/Button';
 import Card from '../common/Card';
 import {
@@ -8,6 +9,7 @@ import {
 } from 'lucide-react';
 
 const VideoSection = () => {
+  const navigate = useNavigate();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
   const videoRef = useRef(null);
@@ -207,6 +209,7 @@ const VideoSection = () => {
                 size="lg" 
                 className="bg-blue text-blue-600"
                 icon={<Globe />}
+                onClick={() => navigate('/services')}
               >
                 Explore Trade Services
               </Button>
@@ -215,6 +218,7 @@ const VideoSection = () => {
                 variant="outline" 
                 className="border-white text-white hover:bg-white hover:text-blue-600"
                 icon={<GraduationCap />}
+                onClick={() => navigate('/student-admission')}
               >
                 Start Your Application
               </Button>
